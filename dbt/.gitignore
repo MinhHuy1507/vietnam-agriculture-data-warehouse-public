@@ -1,0 +1,40 @@
+
+# ============================================
+# dbt Build Artifacts
+# ============================================
+target/
+dbt_packages/
+logs/
+
+# ============================================
+# dbt User-Specific Files
+# ============================================
+.user.yml
+
+# ============================================
+# dbt Credentials (IMPORTANT!)
+# ============================================
+# Only ignore if you use env_var() in profiles.yml
+# If profiles.yml contains hardcoded credentials, add it here:
+profiles.yml
+
+# ============================================
+# dbt Documentation
+# ============================================
+# Uncomment if you don't want to commit generated docs
+# target/index.html
+# target/catalog.json
+# target/manifest.json
+
+# ============================================
+# IDE
+# ============================================
+.vscode/
+.idea/
+*.swp
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+Thumbs.db

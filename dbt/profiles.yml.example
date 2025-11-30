@@ -1,0 +1,26 @@
+# Example dbt profiles.yml file
+# Copy this file to profiles.yml and fill in your credentials
+# OR use environment variables as shown below
+
+vietnam_agriculture_dwh:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: "{{ env_var('POSTGRES_HOST') }}"        # or: localhost
+      user: "{{ env_var('POSTGRES_USER') }}"        # or: airflow
+      password: "{{ env_var('POSTGRES_PASSWORD') }}" # or: your_password
+      port: "{{ env_var('POSTGRES_PORT') | int }}"  # or: 5432
+      dbname: "{{ env_var('POSTGRES_DB') }}"        # or: agri-datawarehouse
+      schema: "{{ env_var('POSTGRES_SCHEMA') }}"    # or: bronze
+      threads: 4
+    
+    prod:
+      type: postgres
+      host: "{{ env_var('PROD_POSTGRES_HOST') }}"
+      user: "{{ env_var('PROD_POSTGRES_USER') }}"
+      password: "{{ env_var('PROD_POSTGRES_PASSWORD') }}"
+      port: "{{ env_var('PROD_POSTGRES_PORT') | int }}"
+      dbname: "{{ env_var('PROD_POSTGRES_DB') }}"
+      schema: "{{ env_var('PROD_POSTGRES_SCHEMA') }}"
+      threads: 8

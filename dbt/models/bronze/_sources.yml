@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: raw_layer
+    database: agri-datawarehouse
+    schema: raw
+    tables:
+      - name: agriculture
+        description: "Raw Agriculture data (Area, Production, Yield) from NSO"
+      
+      - name: province
+        description: "Raw Province coordinate data (Lat/Lon)"
+        
+      - name: climate
+        description: "Raw Climate data from NASA Power"
+        
+      - name: soil
+        description: "Raw Soil data from GEE (Static)"
