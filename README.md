@@ -1,7 +1,23 @@
+<div align='center'>
+
 # Vietnam Agriculture Data Warehouse
+
+</div>
 
 ![Dag](assets/dag_pipeline.png)
 ![Dag Success](assets/dag_success_all.png)
+
+## 🔗 Related Projects
+
+This project is the **Transformation Layer** of a complete end-to-end data engineering ecosystem. Check out the other components:
+
+*   [**Vietnam Agriculture Data Lake**](https://github.com/MinhHuy1507/vietnam-agriculture-datalake-public)
+    *   **Role**: Data Ingestion & Storage.
+    *   **Function**: Collects raw data from General Statistics Office Of Viet Nam (GSO), NASA POWER, Google Earth Engine.
+
+*   [**Vietnam Agriculture Application**](https://github.com/MinhHuy1507/vietnam-agriculture-app-public)
+    *   **Role**: Visualization & Application.
+    *   **Function**: Interactive web application to visualize and explore the Vietnam agriculture datasets.
 
 ## 📖 Introduction
 The **Vietnam Agriculture Data Warehouse** is a comprehensive data engineering project designed to ingest, transform, and analyze agricultural, climatic, and soil data from Vietnam. 
