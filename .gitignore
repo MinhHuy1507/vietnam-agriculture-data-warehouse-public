@@ -1,0 +1,109 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+*.so
+
+# ============================================
+# IDEs and Editors
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Airflow
+# ============================================
+logs/
+*.log
+*.pid
+airflow.cfg
+!config/airflow.cfg
+airflow.db
+airflow-webserver.pid
+unittests.cfg
+webserver_config.py
+standalone_admin_password.txt
+
+# ============================================
+# dbt
+# ============================================
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+dbt/.user.yml
+dbt/profiles.yml
+dbt/dbt_modules/
+
+# ============================================
+# Data & Storage
+# ============================================
+minio_data/
+*.minio.sys/
+# Ignore all data files but keep the folder structure
+data/*
+!data/raw/
+!data/processed/
+!data/gold/
+!data/**/.gitkeep
+# Explicitly ignore large files if they sneak in
+*.csv
+*.parquet
+*.avro
+# But allow seeds in dbt
+!dbt/seeds/*.csv
+
+# ============================================
+# Environment & Secrets
+# ============================================
+.env
+.env.local
+.env.*.local
+*.secret
+credentials.json
+service-account.json
+
+# ============================================
+# Docker
+# ============================================
+*.tmp
+docker-compose.override.yml
+
+# ============================================
+# Testing & Coverage
+# ============================================
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# ============================================
+# Documentation
+# ============================================
+site/
+docs/_build/
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+config

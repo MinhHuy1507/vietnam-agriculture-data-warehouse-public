@@ -1,0 +1,12 @@
+pandas
+numpy
+
+# dbt
+dbt-postgres
+astronomer-cosmos
+
+# sqlalchemy
+sqlalchemy==1.4.52
+# sqlmodel  <-- Removed to avoid dependency conflicts
+psycopg2-binary
+flask-sqlalchemy<3.0.0
