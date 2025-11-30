@@ -33,7 +33,7 @@ logs/
 *.log
 *.pid
 airflow.cfg
-!config/airflow.cfg
+config/airflow.cfg
 airflow.db
 airflow-webserver.pid
 unittests.cfg
@@ -55,17 +55,27 @@ dbt/dbt_modules/
 # ============================================
 minio_data/
 *.minio.sys/
-# Ignore all data files but keep the folder structure
+
+# 1. Global ignores for large data files
+*.csv
+*.parquet
+*.avro
+
+# 2. Ignore everything in data folder
 data/*
+
+# 3. Exceptions (Allow tracking)
+# Keep folder structure
 !data/raw/
 !data/processed/
 !data/gold/
 !data/**/.gitkeep
-# Explicitly ignore large files if they sneak in
-*.csv
-*.parquet
-*.avro
-# But allow seeds in dbt
+
+# Allow sample data (Must come AFTER *.csv ignore)
+!data/sample/
+!data/sample/*.csv
+
+# Allow dbt seeds
 !dbt/seeds/*.csv
 
 # ============================================

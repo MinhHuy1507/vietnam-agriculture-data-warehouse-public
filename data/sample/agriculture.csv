@@ -1,0 +1,101 @@
+year,region,commodity,season,area_thousand_ha,yield_ta_per_ha,production_thousand_tonnes
+1995,C? NU?C,rice,winter_spring,2421.3,44.3,10736.6
+1996,C? NU?C,rice,winter_spring,2541.1,48.0,12209.5
+1997,C? NU?C,rice,winter_spring,2682.7,49.6,13310.3
+1998,C? NU?C,rice,winter_spring,2783.3,48.7,13559.5
+1999,C? NU?C,rice,winter_spring,2888.9,48.8,14103.0
+2000,C? NU?C,rice,winter_spring,3013.2,51.7,15571.2
+2001,C? NU?C,rice,winter_spring,3056.9,50.6,15474.4
+2002,C? NU?C,rice,winter_spring,3033.0,55.1,16719.6
+2003,C? NU?C,rice,winter_spring,3022.9,55.7,16822.7
+2004,C? NU?C,rice,winter_spring,2978.5,57.3,17078.0
+2005,C? NU?C,rice,winter_spring,2942.1,58.9,17331.6
+2006,C? NU?C,rice,winter_spring,2995.5,58.7,17588.2
+2007,C? NU?C,rice,winter_spring,2988.4,57.0,17024.1
+2008,C? NU?C,rice,winter_spring,3013.1,60.8,18326.9
+2009,C? NU?C,rice,winter_spring,3060.9,61.1,18695.8
+2010,C? NU?C,rice,winter_spring,3085.9,62.3,19216.8
+2011,C? NU?C,rice,winter_spring,3096.8,63.9,19778.3
+2012,C? NU?C,rice,winter_spring,3124.3,64.9,20291.9
+2013,C? NU?C,rice,winter_spring,3105.6,64.6,20069.7
+2014,C? NU?C,rice,winter_spring,3116.5,66.9,20850.5
+2015,C? NU?C,rice,winter_spring,3168.0,66.6,21091.7
+2016,C? NU?C,rice,winter_spring,3128.9,62.8,19646.6
+2017,C? NU?C,rice,winter_spring,3117.1,62.3,19415.8
+2018,C? NU?C,rice,winter_spring,3102.8,66.4,20603.0
+2019,C? NU?C,rice,winter_spring,3124.1,65.5,20471.6
+2020,C? NU?C,rice,winter_spring,3024.0,65.7,19874.4
+2021,C? NU?C,rice,winter_spring,3006.8,68.6,20628.8
+2022,C? NU?C,rice,winter_spring,2992.3,66.8,19976.0
+2023,C? NU?C,rice,winter_spring,2952.5,68.4,20189.3
+So b? 2024,C? NU?C,rice,winter_spring,2954.1,68.8,20333.9
+1995,Ð?ng b?ng sông H?ng,rice,winter_spring,605.4,44.5,2692.4
+1996,Ð?ng b?ng sông H?ng,rice,winter_spring,602.2,53.5,3220.9
+1997,Ð?ng b?ng sông H?ng,rice,winter_spring,611.1,53.6,3275.1
+1998,Ð?ng b?ng sông H?ng,rice,winter_spring,610.9,52.4,3201.6
+1999,Ð?ng b?ng sông H?ng,rice,winter_spring,608.5,54.4,3310.2
+2000,Ð?ng b?ng sông H?ng,rice,winter_spring,618.0,58.0,3584.5
+2001,Ð?ng b?ng sông H?ng,rice,winter_spring,617.8,57.3,3540.8
+2002,Ð?ng b?ng sông H?ng,rice,winter_spring,613.4,59.4,3640.9
+2003,Ð?ng b?ng sông H?ng,rice,winter_spring,609.0,60.9,3708.1
+2004,Ð?ng b?ng sông H?ng,rice,winter_spring,597.2,62.4,3727.0
+2005,Ð?ng b?ng sông H?ng,rice,winter_spring,584.2,62.8,3671.3
+2006,Ð?ng b?ng sông H?ng,rice,winter_spring,576.9,63.3,3654.1
+2007,Ð?ng b?ng sông H?ng,rice,winter_spring,571.5,57.3,3275.2
+2008,Ð?ng b?ng sông H?ng,rice,winter_spring,566.3,63.7,3609.7
+2009,Ð?ng b?ng sông H?ng,rice,winter_spring,571.3,63.4,3621.0
+2010,Ð?ng b?ng sông H?ng,rice,winter_spring,568.7,63.2,3592.6
+2011,Ð?ng b?ng sông H?ng,rice,winter_spring,566.1,66.9,3789.0
+2012,Ð?ng b?ng sông H?ng,rice,winter_spring,565.2,66.2,3739.2
+2013,Ð?ng b?ng sông H?ng,rice,winter_spring,561.3,65.7,3687.5
+2014,Ð?ng b?ng sông H?ng,rice,winter_spring,557.9,65.5,3651.5
+2015,Ð?ng b?ng sông H?ng,rice,winter_spring,553.0,65.8,3636.0
+2016,Ð?ng b?ng sông H?ng,rice,winter_spring,546.1,65.6,3583.2
+2017,Ð?ng b?ng sông H?ng,rice,winter_spring,536.2,65.9,3533.8
+2018,Ð?ng b?ng sông H?ng,rice,winter_spring,524.4,66.9,3507.0
+2019,Ð?ng b?ng sông H?ng,rice,winter_spring,515.0,65.3,3365.4
+2020,Ð?ng b?ng sông H?ng,rice,winter_spring,499.0,65.5,3266.2
+2021,Ð?ng b?ng sông H?ng,rice,winter_spring,491.4,66.6,3274.1
+2022,Ð?ng b?ng sông H?ng,rice,winter_spring,484.2,65.9,3192.8
+2023,Ð?ng b?ng sông H?ng,rice,winter_spring,476.8,66.5,3172.6
+So b? 2024,Ð?ng b?ng sông H?ng,rice,winter_spring,471.4,66.9,3154.2
+1995,Hà N?i,rice,winter_spring,26.2,30.6,80.3
+1996,Hà N?i,rice,winter_spring,25.3,41.3,104.5
+1997,Hà N?i,rice,winter_spring,26.2,39.5,103.4
+1998,Hà N?i,rice,winter_spring,24.9,37.1,92.3
+1999,Hà N?i,rice,winter_spring,24.8,37.5,93.1
+2000,Hà N?i,rice,winter_spring,25.5,44.5,113.6
+2001,Hà N?i,rice,winter_spring,25.5,40.7,103.9
+2002,Hà N?i,rice,winter_spring,24.8,42.1,104.4
+2003,Hà N?i,rice,winter_spring,24.3,44.4,107.9
+2004,Hà N?i,rice,winter_spring,22.4,47.1,105.6
+2005,Hà N?i,rice,winter_spring,20.9,46.2,96.6
+2006,Hà N?i,rice,winter_spring,20.7,46.6,96.4
+2007,Hà N?i,rice,winter_spring,20.6,42.7,87.9
+2008,Hà N?i,rice,winter_spring,101.2,59.8,605.0
+2009,Hà N?i,rice,winter_spring,103.2,58.3,601.4
+2010,Hà N?i,rice,winter_spring,101.8,58.0,590.0
+2011,Hà N?i,rice,winter_spring,102.0,62.6,638.8
+2012,Hà N?i,rice,winter_spring,102.7,61.8,634.2
+2013,Hà N?i,rice,winter_spring,102.3,61.2,625.6
+2014,Hà N?i,rice,winter_spring,101.6,61.1,620.7
+2015,Hà N?i,rice,winter_spring,101.0,61.1,616.7
+2016,Hà N?i,rice,winter_spring,99.4,60.9,605.7
+2017,Hà N?i,rice,winter_spring,96.9,61.3,594.4
+2018,Hà N?i,rice,winter_spring,93.1,62.8,584.3
+2019,Hà N?i,rice,winter_spring,90.6,58.8,532.6
+2020,Hà N?i,rice,winter_spring,86.9,59.7,518.5
+2021,Hà N?i,rice,winter_spring,85.1,62.6,532.7
+2022,Hà N?i,rice,winter_spring,83.7,61.6,515.3
+2023,Hà N?i,rice,winter_spring,82.5,62.8,517.9
+So b? 2024,Hà N?i,rice,winter_spring,81.0,62.8,508.7
+1995,Hà Tây,rice,winter_spring,82.2,39.0,320.5
+1996,Hà Tây,rice,winter_spring,80.3,48.0,385.2
+1997,Hà Tây,rice,winter_spring,81.3,50.0,406.4
+1998,Hà Tây,rice,winter_spring,82.0,50.1,410.5
+1999,Hà Tây,rice,winter_spring,82.1,51.9,426.3
+2000,Hà Tây,rice,winter_spring,83.1,55.8,463.7
+2001,Hà Tây,rice,winter_spring,83.4,57.4,478.4
+2002,Hà Tây,rice,winter_spring,83.3,59.4,494.5
+2003,Hà Tây,rice,winter_spring,82.6,59.9,494.9
+2004,Hà Tây,rice,winter_spring,81.1,61.5,498.7
